@@ -26,9 +26,9 @@ from llama_index import LLMPredictor
 import streamlit as st
 
 def app():
-    os.environ['HUGGINGFACEHUB_API_TOKEN'] = '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'
-    os.environ["OPENAI_API_KEY"] = "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"  
-    openai.api_key = "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"
+    os.environ['HUGGINGFACEHUB_API_TOKEN'] = '00'
+    os.environ["OPENAI_API_KEY"] = "00"  
+    openai.api_key = "00"
 
     directory = '/workspace/JupyterLab (DATA)/NLP_GPT/development/data'
 
@@ -36,8 +36,8 @@ def app():
 
 
     pinecone.init(
-        api_key="5deaf73e-7868-4138-a662-72738d095818",  # find at app.pinecone.io
-        environment="northamerica-northeast1-gcp"  # next to api key in console
+        api_key="00",  # find at app.pinecone.io
+        environment="00"  # next to api key in console
         )
 
     index_name = "langchain-demo"
